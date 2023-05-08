@@ -1,0 +1,11 @@
+Regression Exercise: 
+
+In order to ensure that new changes to the system do not introduce any unintended consequences or break existing functionality. Here's an outline of a regression testing plan that could be enacted upon new builds of the system. To do so, We need to:
+
+1- Test all existing test cases, based on previous builds
+2- Create new test cases to test new builds.
+3- Mantainance: 
+	a- Update and fix any broken automated scenario
+	b- Update and fix any outdated manual scenario
+4- Once updated, the automated test suite will be executed to be integrated with the deployment pipeline.
+5- An example of the previous step will be executing the whole regression test suite after the deployment has finished.
